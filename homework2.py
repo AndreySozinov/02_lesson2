@@ -17,7 +17,7 @@ num_add = numer1 * denom2 + numer2 * denom1
 den_add = denom1 * denom2
 
 divider = math.gcd(num_add, den_add)
-if divider > 0:
+if divider:
     num_add //= divider
     den_add //= divider
 
@@ -25,7 +25,7 @@ num_mult = numer1 * numer2
 den_mult = denom1 * denom2
 
 divider = math.gcd(num_mult, den_mult)
-if divider > 0:
+if divider:
     num_mult //= divider
     den_mult //= divider
 
